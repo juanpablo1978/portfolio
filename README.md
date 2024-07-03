@@ -4,28 +4,22 @@
 ![portfoliosass](https://github.com/juanpablo1978/portfolio/assets/86315284/089eabde-38a5-4686-b077-4e10afbacbdf)
 
 
-
-
-El presente proyecto es una landing que tiene como objetivo informar acerca de las diferentes actividades y servicios que brinda la asociación.
-El propósito es realizar un repaso por su historia a través de fotos, video y textos.
+Portfolio en formato landing maquetado con Sass
 
 ## Secciones de la landing
 
-1. HOME: es una bienenida al proyecto en idiomas castellano y polaco, con fotos y video institucional.
+1. INICIO
 
-3. AGENDA: es una cartelera en formato modal, donde el usuario puede ver las diferentes actividades que se realizan en la asociación o eventos en los que participa.
+3. ACERCA DE MI
 
-4. NOSOTROS: historia de la Asociación contada por sus miembros.
+4. SERVICIOS
 
-5. ACTIVIDADES Y SERVICIOS: informa acerca de las 3 actividades principales que brinda.
+5. WORKS
 
-6. GALERÍA: galería sesiones fotográficas y eventos.
+6. TESTIMONIAL
 
-7. CONTACTO: en el footer, información de redes, correo electrónico y wsp.
 
-## El sitio web de la Asociación Civil Nueva Polonia
-
-Para navegar en el sitio sólo debes clickear [AQUÍ](https://juanpablo1978.github.io/asociacion.github.io/)
+Para navegar en el sitio sólo debes clickear [AQUÍ](https://sass-portfolio-psi.vercel.app/)
 
 ## Construído con
 
