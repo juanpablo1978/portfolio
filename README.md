@@ -1,6 +1,10 @@
+
 # Sass Portfolio
 
-![logoblanco](https://github.com/juanpablo1978/asociacion.github.io/assets/86315284/67cbc7b2-4c68-4b13-bd7c-c8a2c7cc5449)
+![portfoliosass](https://github.com/juanpablo1978/portfolio/assets/86315284/089eabde-38a5-4686-b077-4e10afbacbdf)
+
+
+
 
 El presente proyecto es una landing que tiene como objetivo informar acerca de las diferentes actividades y servicios que brinda la asociación.
 El propósito es realizar un repaso por su historia a través de fotos, video y textos.
