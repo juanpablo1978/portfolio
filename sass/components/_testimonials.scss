@@ -1,0 +1,52 @@
+.testimonials{
+    background-color: $bg-gray-color;
+    &__title{
+        @include title-h2-bg;
+    }
+    &__container{
+        max-width: 1100px;
+        display:flex;
+        gap:60px;
+        padding: 40px 20px;
+        overflow-x: scroll;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+        margin:0 auto;
+
+    }
+}
+
+.testimonial-card{
+    width: 310px;
+    min-width: 310px;
+    text-align: center;
+    &__image{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 20px auto;
+        img{
+            @include imgCover;
+        }
+    }
+    &__testimonial{
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+    }
+    &__name{
+        font-size: 16px;
+        font-weight: 600;
+        margin: 30px 0 5px;
+        text-transform: capitalize;
+    }
+    &__position{
+        font-size: 12px;
+        font-weight: 600;
+        color: $h6-gray-color;
+        margin-bottom: 30px;
+    }
+
+}

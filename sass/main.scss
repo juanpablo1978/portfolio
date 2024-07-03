@@ -1,0 +1,22 @@
+
+/*abstracts*/
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+/*base*/
+@import './base/reset';
+@import './base/base';
+
+/*layout*/
+@import './layout/header';
+
+/*components*/
+@import './components/about-me';
+@import './components/buttons';
+@import './components/hero';
+@import './components/navbar';
+@import './components/portfolio';
+@import './components/services';
+@import './components/testimonials';
+
+

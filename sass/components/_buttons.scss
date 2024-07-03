@@ -1,0 +1,30 @@
+
+
+.primary-button{
+    border: 2px solid $just-black;
+    border-radius: 5px;
+    background-color: $just-black;
+    padding:10px 30px; 
+    color:$just-white;
+    font-weight: 500;
+    transition: all 350ms ease-in-out;
+    &:hover{
+        color:$just-black;
+        background-color: $just-white;
+    }
+}
+
+
+.secondary-button{
+    border: 2px solid $just-black;
+    border-radius: 5px;
+    background-color: $just-white;
+    padding:10px 30px; 
+    color:$just-black;
+    font-weight: 500;
+    transition: all 450ms ease-in-out;
+    &:hover{
+        color:$just-white;
+        background-color: $just-black;
+    }
+}

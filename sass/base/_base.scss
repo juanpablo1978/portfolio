@@ -1,0 +1,29 @@
+html{
+    font-family: $font-poppins;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    color: $just-black;
+    text-decoration: none;
+}
+
+button{
+    border:none;
+    background: none;
+    font-family: $font-poppins;
+    cursor: pointer;
+    font-size:14px;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+
+
+
+

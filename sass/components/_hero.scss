@@ -1,0 +1,55 @@
+.hero-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &__bg-img{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        filter: brightness(0.6) contrast(0.85);
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__caption{
+        color: $just-white;
+        text-align: center;
+        h2{
+            font-size:3rem;
+        }
+        p{
+            font-size: 1.8rem;
+            font-weight: 300;
+            span{
+                font-weight: 600;
+            }
+        }
+
+        position: relative;
+    }
+
+    &__social-media{
+        display:flex;
+        gap:8px;
+        margin-top:20px;
+
+
+        position:relative;
+        li{
+            @include circle-sm-icon;
+            
+        }
+
+    }
+
+}

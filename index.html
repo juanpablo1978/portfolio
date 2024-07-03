@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="navbar-container">
+                <div class="navbar-container__logo">
+                    DEV
+                </div>
+
+                <input type="checkbox" class="navbar-container__menu-icon">
+
+                <nav class="navbar-container__nav navbar-container__nav--mobile">
+                    <ul class="links-container">
+                        <li class="links-container__link links-container__link">
+                            <a href="#inicio" class="selected">Inicio</a>
+                        </li>
+                        <li class="links-container__link">
+                            <a href="#about">Acerca de mí</a>
+                        </li>
+                        <li class="links-container__link">
+                            <a href="#servicios">Servicios</a>
+                        </li>
+                        <li class="links-container__link">
+                            <a href="#works">Works</a>
+                        </li>
+                        <li class="links-container__link">
+                            <a href="#testimonial">Testimonial</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>        
+            <section class="hero-container">
+                <div class="hero-container__bg-img">
+                    <img src="assets/images/bariloche.jpg" alt="bariloche">
+                </div>
+                <article class="hero-container__caption">
+                    <h2>Hello</h2>
+                    <p>I Am <span>Front End Developer</span></p>
+                </article>
+                <ul class="hero-container__social-media">
+                    <a href="" target="_blank">
+                        <li>
+                            <i class="fa-brands fa-github"></i>
+                        </li>
+                    </a>
+                    <a href="" target="_blank">
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    </a>
+                    <a href="" target="_blank">
+                    <li>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </li>
+                    </a>
+                    <a href="" target="_blank">
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    </a>
+                </ul>    
+            </section>
+        </header>
+
+        <main>
+            <section class="about-me">
+                <div class="about-me__img">
+                    <div class="about-img-container">
+                        <img src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="foto de perfil">
+                    </div>
+                </div>
+
+                <div class="about-me__info">
+                    <article class="info-box">
+                        <h2 id="about">Acerca de mí</h2>
+                        <h4>Front End Developer</h4>
+                        <p>Soy <span>James</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    </article>
+                    <div class="skills">
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill">
+                                <span>Desarrollo Web</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill">
+                                <span>Javascript</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-bar__fill">
+                                <span>React</span>
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__buttons">
+                        <button class="primary-button">Download CV</button>
+                        <button class="secondary-button">Contact Me</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services">
+
+                <h2 class="services__title" id="servicios">Services</h2>
+
+                <div class="services__container">
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa-brands fa-sketch"></i>
+                        </div>
+                        <h3 class="services-item__title">Diseño Web</h3>
+                        <p class="services-item__paragraph">Planificación, diseño, implementación y mantenimiento de tu sitio web.</p>
+                    </article>
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa fa-object-group" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="services-item__title">Maquetador</h3>
+                        <p class="services-item__paragraph">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    </article>
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="services-item__title">Dominios</h3>
+                        <p class="services-item__paragraph">Registro y alta del tominio en internet.</p>
+                    </article>
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa fa-cloud" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="services-item__title">Hosting</h3>
+                        <p class="services-item__paragraph">Sitios web y aplicaciones estén accesibles en Internet,
+                             asegurando un rendimiento, seguridad y disponibilidad adecuados según las necesidades del cliente.</p>
+                    </article>
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <h3 class="services-item__title">Seo</h3>
+                        <p class="services-item__paragraph">Las mejores prácticas dentro del sitio web para mejorar su posición en los motores de búsqueda. </p>
+                    </article>
+
+                    <article class="services-item">
+                        <div class="services-item__icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3 class="services-item__title">Mantenimiento</h3>
+                        <p class="services-item__paragraph">Proceso continuo para asegurar que el sitio funcione de manera óptima, sea seguro y esté actualizado.</p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="portfolio">
+                <h2 class="portfolio__title" id="works">Portfolio</h2>
+
+                <div class="portfolio__container">
+
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/5632364/pexels-photo-5632364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cart">
+
+                        <div class="portfolio-item__info">
+                            <h3>eCommerce</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/34514/spot-runs-start-la.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="run">
+
+                        <div class="portfolio-item__info">
+                            <h3>Sports Site</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/5997286/pexels-photo-5997286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tokio">
+
+                        <div class="portfolio-item__info">
+                            <h3>Turist</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="credit cards">
+
+                        <div class="portfolio-item__info">
+                            <h3>Financial</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="food">
+
+                        <div class="portfolio-item__info">
+                            <h3>Food</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-item">
+                        <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="computer">
+
+                        <div class="portfolio-item__info">
+                            <h3>Electronic Web</h3>
+                            <ul class="link-icon-container">
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-github"></i>
+                                    </li>
+                                </a>
+
+                                <a href="" target="_blank">
+                                    <li>
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <section class="testimonials" >
+                <h2 class="testimonials__title" id="testimonial">Testimonial</h2>
+                <div class="testimonials__container">
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__image">
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        </div>
+                        <p class="testimonial-card__testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h4 class="testimonial-card__name">alex smith</h4>
+                        <h6 class="testimonial-card__position">Supervisor</h6>        
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__image">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        </div>
+                        <p class="testimonial-card__testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h4 class="testimonial-card__name">john dean</h4>
+                        <h6 class="testimonial-card__position">Developer</h6>        
+                    </article>
+
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__image">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        </div>
+                        <p class="testimonial-card__testimonial">Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h4 class="testimonial-card__name">maria sanders</h4>
+                        <h6 class="testimonial-card__position">Designer</h6>        
+                    </article>
+                </div>    
+            </section>
+
+            <section>
+                
+            </section>
+
+
+        </main>
+        
+
+        <footer>
+
+        </footer>
+
+        <script src="https://kit.fontawesome.com/bf608de945.js" crossorigin="anonymous"></script>
+    </body>
+</html>
