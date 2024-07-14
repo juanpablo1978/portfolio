@@ -4,7 +4,7 @@
 ![portfoliosass](https://github.com/juanpablo1978/portfolio/assets/86315284/089eabde-38a5-4686-b077-4e10afbacbdf)
 
 
-Portfolio en formato landing maquetado con Sass
+Portfolio en formato landing maquetado con Sass, fue el primer portfolio que utilicé para mostrar mis proyectos personales hasta que comencé a trabajar con React.js.
 
 ## Secciones de la landing
 
